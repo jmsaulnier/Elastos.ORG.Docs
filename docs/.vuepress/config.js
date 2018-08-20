@@ -7,6 +7,7 @@ module.exports = {
         href: 'https://raw.githubusercontent.com/elastos/Elastos.Community/master/ElastosLogoAssets/Icon/RGB/Elastos_Icon_RGB.png'
     }]
   ],
+  base: '/Elastos.ORG.Docs/',
   themeConfig: {
       logo: 'https://raw.githubusercontent.com/elastos/Elastos.Community/master/ElastosLogoAssets/Icon/RGB/Elastos_Icon_RGB.png',
       repo: 'elastos/Elastos.ORG.Docs',
