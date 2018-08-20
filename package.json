@@ -1,0 +1,31 @@
+{
+    "name": "@elastos/docs",
+    "description": "Official documentation for Elastos",
+    "license": "MIT",
+    "keywords": [
+        "elastos",
+        "blockchain",
+        "crypto",
+        "docs",
+        "api"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elastos/Elastos.ORG.Docs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/elastos/Elastos.ORG.Docs/issues"
+    },
+    "homepage": "https://github.com/elastos/Elastos.ORG.Docs",
+    "scripts": {
+        "dev": "vuepress dev docs --port 3000",
+        "build": "vuepress build docs"
+    },
+    "devDependencies": {
+        "axios": "^0.18.0",
+        "highlight.js": "^9.12.0",
+        "nprogress": "^0.2.0",
+        "sweetalert": "^2.1.0",
+        "vuepress": "^0.14.2"
+    }
+}
