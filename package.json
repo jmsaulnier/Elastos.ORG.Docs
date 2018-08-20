@@ -20,7 +20,7 @@
     "scripts": {
         "dev": "vuepress dev docs --port 3000",
         "build": "vuepress build docs",
-        "deploy": "yarn build && gh-pages -d docs/.vuepress/dist"
+        "deploy:github-pages": "yarn build && gh-pages -d docs/.vuepress/dist"
     },
     "devDependencies": {
         "axios": "^0.18.0",
